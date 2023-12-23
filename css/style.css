@@ -1,0 +1,271 @@
+.conteiner {
+    width: min(100%, 1440px);
+    margin: auto;
+   
+}
+
+/* Header */
+
+.body_header {
+    background: #372D23;
+    display: flex;
+    margin: auto;
+    align-items: center;    
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.header_food {
+    width: 72px;
+    height: 72px;
+    margin: 32px 80px;
+}
+
+
+.header_ul {
+    display: flex;
+    font-size: 24px;
+    
+}
+
+.activ {
+    color: #ED6C30;
+    padding: 48px;
+}
+
+.no_activ {
+    color: #B89278;
+    padding: 40px;
+}
+
+.header_shopping {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    
+    
+}
+
+/* div */
+
+.div_image {
+    position: relative;
+    height: 640px;
+
+}
+
+.div_position {
+    position: absolute;
+    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+
+
+
+}
+
+.image_cover {
+    width: 100%;
+    height: 100%;
+}
+
+.div_h2 {
+    color: #FFF;
+    text-shadow: 0px 6px 4px #372D23;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+.div_button {
+    padding: 12px 38px;
+    border: 3px solid #FCC21B;
+    box-shadow: 0px 4px 4px 0px #372D23;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    background-color: transparent;
+    margin-top: 32px;
+
+}
+
+/* section */
+
+.section_1 {
+    display: flex;
+    width: min(100%, 1280px);
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.section_div_1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section_div_2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section_div_3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section_box {
+    display: flex;
+    width: 400px;
+    height: 88px;
+    padding: 28px 47px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #ED6C30;
+    background: rgba(55, 45, 35, 0.80);
+    backdrop-filter: blur(2px);
+    align-items: center;
+
+}
+
+h6 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 4px;
+}
+
+.story {
+    display: flex;
+    width: 1060px;
+    height: 264px;
+    margin: auto;
+    padding-top: 80px;
+    flex-direction: column;
+
+
+}
+
+h3 {
+    font-size: 40px;
+    margin: auto;
+    padding-bottom: 40px;
+
+
+}
+
+.story_p {
+
+    width: 1060px;
+    height: 84px;
+    text-align: center;
+    color: #855C52;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    /* margin-top: 40px; */
+
+}
+
+.story_button {
+    height: 52px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    background: #ED6C30;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 40px;
+
+
+}
+
+/* footer */
+
+.footer {
+    width: 1440px;
+    height: 196px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #372D23;
+    justify-content: space-between;  
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 300px;
+
+
+}
+
+.footer_food {
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 28px;
+    
+}
+
+.footer_menu {
+    color: #B89278;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer_h4 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.instagram{
+    margin-right: 16px;
+}
+
+
+
+.footer_icon {
+    padding: 32px;
+justify-content: center;
+align-items: flex-start;
+gap: 416px;
+
+
+    
+}
